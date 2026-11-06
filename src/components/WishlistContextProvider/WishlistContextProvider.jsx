@@ -107,7 +107,7 @@ token : localStorage.getItem("userToken")
         ,signal: controller.signal}
         
       );
-         console.log("display wishlist :", data);
+        //  console.log("display wishlist :", data);
  
       setGetWishlist(data);
        setWishlistCount(data.count);
